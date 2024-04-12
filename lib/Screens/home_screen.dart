@@ -58,11 +58,20 @@ class _HomeScreenState extends State<HomeScreen> {
                   Color(0xff00dbde),
                 ])),
             child: const Center(
-              child:  Text(
+              child: Text(
                 "KYA MUJHE KUCH DIKHAI DE RHA HAI ",
                 style: TextStyle(color: Colors.white),
               ),
             ),
+          ),
+         const SizedBox(height: 20,),
+          Container(
+            height: 200,
+            width: double.infinity,
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(8),
+            ),
+            child: Image.asset('assets/svg/winner.png'),
           )
         ],
       ),
